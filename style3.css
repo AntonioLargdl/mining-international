@@ -1,0 +1,51 @@
+
+header {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.7),rgba(0, 0, 0, 0.7)),url(/img/products.jpg);
+  background-size: cover;
+  background-position: center;
+  min-height: 150vh;
+  background-attachment: fixed;
+}
+
+.paragraph {
+  text-transform: none!important;
+  text-align: center;
+  font-size: 140%;
+  margin: 30px 50px;
+ }
+
+ @media (max-width:768px) {
+   .paragraph {
+     font-size: 100%;
+     margin: 0px 30px 50px;
+    }
+  }
+
+/* Copiar */
+  @media (max-width: 420px){
+    .btn-lg {
+      margin-top:0;
+      font-size:70%;
+    }
+  }
+
+  @media (max-width: 375px){
+    .btn-lg {
+      margin-top:0;
+      font-size:70%;
+    }
+    .paragraph {
+      font-size: 90%;
+    }
+  }
+
+  @media (max-width: 320px){
+    .btn-lg {
+      margin-top:0;
+      font-size:60%;
+    }
+    .paragraph {
+      font-size: 75%;
+      margin: 0px 10px 10px;
+    }
+  }

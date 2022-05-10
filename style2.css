@@ -1,0 +1,67 @@
+.list-abraham {
+  text-align: left;
+}
+.contact-section {
+  font-size: 120%;
+  margin-top: 20px;
+}
+
+.contact-section li {
+	display: grid;
+  grid-template-columns: 30px 1fr;
+	margin-bottom: 16px;
+  text-decoration: none;
+  margin-left: 15px;
+}
+
+.contact-section li span:nth-child(1) {
+	color: #1584c2;
+	margin-right: 10px;
+  margin-top: 5px;
+}
+
+.contact-section li a{
+	text-decoration: none;
+  color: #505962;
+}
+
+.contact-section .info li a:hover{
+	color: #1584c2;
+}
+
+.map {
+  text-align: center;
+  margin-bottom: 50px;
+}
+
+.col-md-8{
+  text-align: center!important;
+  margin-left: 15%;
+}
+
+.manto {
+  width: 60%;
+  border-radius: 10%;
+}
+
+/* ------- FACILITIES ------------- */
+
+.container-gallery {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.container-gallery img {
+  width: 320px;
+  height: 300px;
+  margin: 10px;
+  transition: all 1s;
+  border-radius: 20px;
+  opacity: 0.75;
+}
+
+.container-gallery img:hover {
+  transform: scale(1.1);
+  opacity: 1;
+}
